@@ -21,9 +21,6 @@ image:
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 ---
-<!--상단광고 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2693562756526041"
-     crossorigin="anonymous"></script>
 
 # Docker를 사용하는 이유
 리눅스 서버에 파이썬 환경을 구성하기 위해서는 프로젝트 관련 파이썬 환경과 패키지 관리를 해줘야 하는데 매번 환경을 맞추기가 쉽지 않습니다. 왜냐하면 패키지 의존성에 의한 에러나 파이썬 버전이 달라 변경된 함수가 있거나 환경변수 설정 등 내가 공들여 해놓은 세팅을 서버를 옮기거나 다른 서버 혹은 나의 환경에 적용할 때마다 OS에 따라 다르게 설정해줘야 하는 번거로움을 없애고 Docker를 활용하여 환경에 맞는 Docker image를 만들어 쉽고 빠르게 환경 구성을 할 수 있기 떄문입니다.
@@ -288,7 +285,3 @@ nohup jupyter lab --ip 0.0.0.0 --allow-root &
 
 ## 3. 마무리
 Docker image 생성 후 불러와서 적용해보는 튜토리얼로써 각자 입맛에 맞게 활용해보시기 바랍니다.
-
-<!--하단광고 -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2693562756526041"
-     crossorigin="anonymous"></script>
