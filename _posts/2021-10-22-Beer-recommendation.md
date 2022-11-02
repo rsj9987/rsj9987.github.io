@@ -2,8 +2,8 @@
 title: "리뷰 분석을 통한 맥주 추천 알고리즘"
 author: Seungjoo Ra
 date: 2021-10-22 14:00:00 +0900
-categories: [NLP, Python]
-tags: [NLP, recommendation]
+categories: [Natural Language]
+tags: [NLP, Python, recommendation]
 math: true
 mermaid: False
 image:
