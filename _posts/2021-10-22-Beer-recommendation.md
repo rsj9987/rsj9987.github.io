@@ -5,7 +5,7 @@ date: 2021-10-22 14:00:00 +0900
 categories: [NLP, Python]
 tags: [NLP, recommendation]
 math: true
-mermaid: 
+mermaid: False
 image:
   path: blog_img/2021_10_22_Beer_recemmendation/main.png
   width: 800
