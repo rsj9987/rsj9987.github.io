@@ -2,7 +2,7 @@
 
 title: "시계열 데이터의 결측치 처리 방법"
 author: Seungjoo Ra
-date: 2023-08-17 18:00:00 +0900
+date: 2023-04-26 18:00:00 +0900
 categories: [TimeSeries]
 tags: [Preprocessing]
 math: true
