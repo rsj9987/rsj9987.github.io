@@ -52,7 +52,7 @@ plt.legend()
 plt.show()
 ```
 
-![](/blog_img/2023-04-26-TimeSeries-MissingValue/ffill.png)
+![](blog_img/2023-04-26-TimeSeries-MissingValue/ffill.png)
 
 ## 3. 이동평균(Moving Average)
 
@@ -76,7 +76,7 @@ plt.legend()
 plt.show()
 ```
 
-![](/blog_img/2023-04-26-TimeSeries-MissingValue/ma_nolookahead.png)
+![](blog_img/2023-04-26-TimeSeries-MissingValue/ma_nolookahead.png)
 
 - ### 사전 관찰이 있는 이동 평균
 
@@ -88,7 +88,7 @@ plt.legend()
 plt.show()
 ```
 
-![](/blog_img/2023-04-26-TimeSeries-MissingValue/ma_lookahead.png)
+![](blog_img/2023-04-26-TimeSeries-MissingValue/ma_lookahead.png)
 
 - ### 이동 평균을 사용하기 전에 고려해봐야할 것
 1. 이동평균으로 결측치를 대체할 때는 미래 예측을 위한 과거의 데이터만으로 이동평균 값을 구할 수 있는지 사전관찰을 수월하게 만들 수 있을지 고려해봐야 한다.
@@ -120,7 +120,7 @@ plt.legend()
 plt.show()
 ```
 
-![](/blog_img/2023-04-26-TimeSeries-MissingValue/Linear_Polynomial.png)
+![](blog_img/2023-04-26-TimeSeries-MissingValue/Linear_Polynomial.png)
 
 선형적으로 증가하는 추세를 가진 데이터셋에 결측치를 대체할 때 이동평균을 사용한다면 실제 추세 대비 누락된 값이 일정하게 과소 평가될 수 있다. 그러므로 이런 경우 선형 보간법을 적용하는 것이 적절할 수 있다.
 
